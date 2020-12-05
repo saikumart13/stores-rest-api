@@ -28,4 +28,4 @@ api.add_resource(UserRegister, '/signup')
 
 if __name__ == '__main__':
     db.init_app(app)
-    app.run(port=5000, debug=True)
+    app.run()
